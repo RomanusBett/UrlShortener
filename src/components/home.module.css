@@ -1,0 +1,38 @@
+.big_container{
+	width: 100%;
+	height: 100%;
+    background: center url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffee' viewBox='0 0 300 508.5'%3E%3Cpolygon points='150,104.25 280.5,179.25 280.5,329.25 150,404.25 19.5,329.25 19.5,179.25'%3E%3C/polygon%3E%3Cpolygon points='0,-150 130.5,-75 130.5,75 0,150 -130.5,75 -130.5,-75'%3E%3C/polygon%3E%3Cpolygon points='300,-150 430.5,-75 430.5,75 300,150 169.5,75 169.5,-75'%3E%3C/polygon%3E%3Cpolygon points='0,358.5 130.5,433.5 130.5,583.5 0,658.5 -130.5,583.5 -130.5,433.5'%3E%3C/polygon%3E%3Cpolygon points='300,358.5 430.5,433.5 430.5,583.5 300,658.5 169.5,583.5 169.5,433.5'%3E%3C/polygon%3E%3C/svg%3E");
+	background-size: 32px;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    font-family: 'Damion', cursive;
+    color: #4caf50;
+}
+.shorten_button{
+    width: 10.33%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 1.3rem;
+    border: none;
+    font-family: 'Muli', sans-serif;
+    border-radius: 5px;
+}
+.shorten_button:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+.shorten_button:active{
+    transform: scale(0.99);
+}
