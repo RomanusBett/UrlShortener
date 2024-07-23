@@ -1,9 +1,8 @@
 import styles from './home.module.css';
 
-const Button = ()=>{
+const Button = (props)=>{
     return (
-        
-         <button className={styles.shorten_button}>
+         <button className={styles.shorten_button} onClick={props.onClick}>
             SHORTEN URL
          </button>
     )

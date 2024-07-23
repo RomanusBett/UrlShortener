@@ -3,6 +3,7 @@
 .pnp.js
 
 /coverage
+.env
 
 /build
 

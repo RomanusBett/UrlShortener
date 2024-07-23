@@ -36,3 +36,10 @@
 .shorten_button:active{
     transform: scale(0.99);
 }
+
+
+@media (max-width:1660px) {
+    .shorten_button{
+        width: 172px;
+    }
+}
